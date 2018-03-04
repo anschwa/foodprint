@@ -1,0 +1,40 @@
+* FoodPrint
+[[https://ecfoodprint.herokuapp.com/][FoodPrint]] is a web application created during the 2018 [[https://squirrel-hacks-2018.devpost.com/][Earlham College
+Hackathon]] targeting the global health project space.
+
+* Problem Statement
+Industrialized agriculture and food production have many detrimental
+effects on the environment both globally and locally. There are also
+many health benefits related to certain types of food in different
+categories. However there is a huge lack of attention to the
+detrimental effects of buying certain foods and what foods contribute
+to a healthy diet.
+
+* Mission Statement
+Provide an efficient and accessible means for people to make more
+conscious choices when buying food and therefore lessening our global
+and local environmental impact, while also enabling them to create a
+balanced diet.
+
+* Heroku Deployment
+#+BEGIN_SRC text
+git push heroku master
+#+END_SRC
+
+* Local Development
+#+BEGIN_SRC text
+# install dependencies using Pipfile, then:
+python app.py $PORT
+#+END_SRC
+
+* Research
+** Carbon Footprint
+- http://css.umich.edu/factsheets/carbon-footprint-factsheet
+- http://www.greeneatz.com/foods-carbon-footprint.html
+- https://timeforchange.org/eat-less-meat-co2-emission-of-food
+
+** Water Usage
+- http://thewaterweeat.com/
+- http://waterfootprint.org/en/water-footprint/product-water-footprint/water-footprint-crop-and-animal-products/
+- https://www.theguardian.com/news/datablog/2013/jan/10/how-much-water-food-production-waste
+- https://www.motherjones.com/environment/2014/03/california-water-suck/ 
